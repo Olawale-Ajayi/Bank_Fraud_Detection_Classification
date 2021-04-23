@@ -5,7 +5,7 @@ The Datasets comprises of over 200000 line items with two targets: Non Fraud and
 An extra care is taked to avoid data leakage when removing outliers in the datasets. The zscore for the removal is set at 11 to retain more datasets in the lower class target (Non Fraud)<br>
 The Non Fraudlent transaction covers over 99% of the targets creating and inbalance problem in the data<br>
 Random sampling technique like Undersamling and Oversampling are used to balance the datasets<b>
-5 differents classfication algorithms are implemented on the Undersapmpled and Oversampled datsets, cross validating the accuracy of each model.<br>
+5 differents classfication algorithms are implemented on the Undersapmpled and Oversampled datsets, cross validating the accuracy of each model. <br>
 
 # In Summary
 
@@ -20,7 +20,7 @@ Each algorithms runs through 5 folds of the training set using StrarifiedKfold i
 on the validation set<br>
 
 The Logistic regression outperformed other algorithm reaching over 92% for the Undersampled data and over 93% for the oversampled data on the validation sets<br>
-The precision recall curve  and roc chart are plotted for both the undersampled model and Oversampled model.
+The precision recall curve  and roc chart are plotted for both the undersampled model and Oversampled model.<br>
 The Oversampled  data return more True positive than False Negative than the Undersampled data which is what is desired for such an imbalanced data
 
 
