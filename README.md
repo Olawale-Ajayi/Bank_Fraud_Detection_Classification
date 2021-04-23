@@ -16,7 +16,7 @@ Random sampling technique like Undersamling and Oversampling are used to balance
 4. Random Forest
 5. KNearest Neighbors
 
-Each algorithms runs through 5 folds of the training set using StrarifiedKfold in skleran. These folds are cross validated to get their validation score on each fold
+Each algorithms runs through 5 folds of the training set using StratifiedKfold in skleran. These folds are cross validated to get their validation score on each fold
 on the validation set<br>
 
 The Logistic regression outperformed other algorithm reaching over 92% for the Undersampled data and over 93% for the oversampled data on the validation sets<br>
